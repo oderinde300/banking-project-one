@@ -69,7 +69,7 @@ const HomeNav = () => {
       </nav>
       <>
         {!showMenu && (
-          <nav className="flex justify-between items-center px-[19px] md:hidden fixed w-full mt-[45px]">
+          <nav className="flex justify-between items-center px-[19px] md:hidden mt-[45px]">
             <div className="flex justify-center items-center w-[92px] h-[39px] cursor-pointer">
               <Image src="imgs/logo.svg" alt="logo" width={92} height={39} />
             </div>
@@ -113,7 +113,7 @@ const HomeNav = () => {
           </nav>
         )}
         {showMenu && (
-          <div className="bg-gray-700 h-screen w-full fixed mt-[3.6rem] block md:hidden">
+          <div className="bg-gray-700 h-full w-full fixed mt-[3.6rem] block md:hidden">
             <div className="flex flex-col justify-between items-center">
               <ul className="flex flex-col justify-between items-center text-sm font-normal text-white">
                 <li className="inline-block p-8 hover:text-primary-blue-2 cursor-pointer">
@@ -162,7 +162,7 @@ const HomeNav = () => {
                 <li className="inline-block p-8 hover:text-primary-blue-2 cursor-pointer">
                   <Link
                     href="/"
-                    className={pathname === "/" ? "text-primary-blue-2" : ""}
+                    // className={pathname === "/" ? "text-primary-blue-2" : ""}
                     onClick={toggleMenu}
                   >
                     Contact Us

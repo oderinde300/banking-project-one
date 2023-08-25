@@ -91,7 +91,7 @@ const Navigation = () => {
           </div>
         </nav>
         {showMenu && (
-          <div className="bg-gray-700 h-screen w-full fixed mt-[3.6rem] block md:hidden">
+          <div className="bg-gray-700 h-full w-full fixed mt-[3.6rem] block md:hidden">
             <div className="flex flex-col justify-between items-center">
               <ul className="flex flex-col justify-between items-center text-sm font-normal text-white">
                 <li className="inline-block p-8 hover:text-primary-blue-2 cursor-pointer">
@@ -140,7 +140,7 @@ const Navigation = () => {
                 <li className="inline-block p-8 hover:text-primary-blue-2 cursor-pointer">
                   <Link
                     href="/"
-                    className={pathname === "/" ? "text-primary-blue-2" : ""}
+                    // className={pathname === "/" ? "text-primary-blue-2" : ""}
                     onClick={toggleMenu}
                   >
                     Contact Us

@@ -35,7 +35,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero-bg": "url('/imgs/background.svg')",
+        "hero-bg": "url('/imgs/BackgroundImage.png')",
         "bg-2": "url('/imgs/bg2.svg')",
         "pages-bg": "url('/imgs/pagesBg.svg')",
       },
