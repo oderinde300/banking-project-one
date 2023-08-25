@@ -59,7 +59,7 @@ const Navigation = () => {
           <li className="inline-block p-[10px] mr-[10px] hover:text-primary-blue-2 cursor-pointer">
             <Link
               href="/"
-              className={pathname === "/" ? "text-primary-blue-2" : ""}
+              // className={pathname === "/" ? "text-primary-blue-2" : ""}
             >
               Contact Us
             </Link>
